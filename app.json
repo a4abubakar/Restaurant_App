@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "sdkVersion" : "37.0.0",
+    "name": "myapp",
+    "slug": "myapp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" :"net.food.confusion.confusion"
+    },
+    "android":{
+      "package":"net.food.confusion.confusion"
+    }
+  }
+}
